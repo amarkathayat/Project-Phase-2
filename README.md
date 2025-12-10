@@ -9,20 +9,11 @@ Micro-Hydro Systems
 Biogas Technology
 The website provides educational content, real-world benefits, challenges, and ways supporters can get involved.
 
-Project-Phase-2/
-│
-├── renewable-react/     → Full React frontend (Phase 2)
-│
-├── api-server/          → Node.js + Express backend (mock API)
-│
-└── Database Structure/  → ER Diagram (draw.io file)
-
 A) Frontend (React)
 Located in: renewable-react/
-Features include:Modern responsive design,Routing using React Router,Dynamic pages (Technologies, Benefits, Challenges, Get Involved),Newsletter signup component
+Features include:Modern responsive design,Routing using React Router,Dynamic pages (Technologies, Benefits, Challenges, Get Involved),Newsletter signup component and Clean and accessible UI
 
 Run frontend locally:
-Clean and accessible UI
 cd renewable-react
 npm install
 npm run dev
@@ -31,8 +22,11 @@ B) Backend API (Node.js)
 Located in: api-server/
 Provides demo API endpoints for newsletter and involvement forms.
 Default port:4000
+Run backend:
+cd api-server
+npm install
+node server.js
 
 C) Database Structure
-Includes:Supporters,NewsletterSubscriptions,InvolvementInterests,Projects
-,Technologies,ProjectTechnologies (junction table)
+Includes:Supporters,NewsletterSubscriptions,InvolvementInterests,Projects,Technologies,ProjectTechnologies (junction table)
 This structure supports both user interactions and renewable project data.
